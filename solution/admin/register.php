@@ -57,7 +57,8 @@ if (isset($_SESSION['logged_in'])) {
 				header('Location: index.php');
 				exit();
 			} else {
-				header('Location: index.php');
+				$error = "Account successfully created. Now you can login.";
+				//header('Location: index.php');
 			}
 		}
 	}
@@ -73,7 +74,7 @@ if (isset($_SESSION['logged_in'])) {
 
 <body>
     <div class="container">
-        <a href="index.php" id="logo">Rage Review</a>
+        <a href="../index.php" id="logo">Rage Review</a>
 
         <br /><br />
 

@@ -35,7 +35,7 @@ if (isset($_SESSION['logged_in'])) {
 
 <body>
     <div class="container">
-        <a href="index.php" id="logo">Rage Review</a>
+        <a href="../index.php" id="logo">Rage Review</a>
 
         <br />
        <h4>Add Article</h4>

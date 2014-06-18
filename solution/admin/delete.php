@@ -30,7 +30,7 @@ if (isset($_SESSION['logged_in'])) {
 
 <body>
     <div class="container">
-        <a href="index.php" id="logo">Rage Review</a>
+        <a href="../index.php" id="logo">Rage Review</a>
 
         <h4>Select article to delete:</h4>
 
