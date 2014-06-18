@@ -88,6 +88,7 @@ if (isset($_SESSION['logged_in'])) {
 	        <input type="password" name="password" placeholder="Password" />
 	        <input type="submit" value="Login" />
         </form>
+        <a href="../index.php">&larr; Back</a>
     </div>
 </body>
 
