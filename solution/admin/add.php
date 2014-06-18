@@ -31,6 +31,14 @@ if (isset($_SESSION['logged_in'])) {
 <head>
     <title>Rage Review</title>
     <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <script type="text/javascript" src="http://tinymce.cachefly.net/4.1/tinymce.min.js"></script>
+	<script type="text/javascript">
+		tinymce.init({
+    		selector: "textarea"
+ 		});
+	</script>
+
+
 </head>
 
 <body>
@@ -53,6 +61,7 @@ if (isset($_SESSION['logged_in'])) {
        <a href="index.php">&larr; Back</a>
   	</div>
 </body>
+
 </html>
 	<?php
 } else {
