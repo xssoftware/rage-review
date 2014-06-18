@@ -1,1 +1,11 @@
 here goes the alpha-beta-gamma solution.
+
+done:
+
+back end + register 
+
+to do:
+
+front end:
+
+bootstrap
