@@ -4,8 +4,10 @@ done:
 
 back end + register 
 
+front end // bootstrap
+
 to do:
 
-front end:
+nothing.
 
-bootstrap
+eventually small fixes.
